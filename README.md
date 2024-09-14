@@ -99,7 +99,7 @@ Visit `http://localhost:5000` in your browser to view the application.
 
 ## 🛠️ Build & Deployment
 
-This app is designed to be scalable and can be deployed on platforms like Heroku, Vercel, or AWS. Follow the steps in the course to deploy your application.
+This app is designed to be scalable and can be deployed on platforms like Heroku, Vercel, or AWS.
 
 ---
 
