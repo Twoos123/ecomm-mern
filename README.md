@@ -1,6 +1,6 @@
 # 🛒 E-Commerce MERN App
 
-This is a fully-featured E-Commerce demo application showcasing a modern tech stack with MongoDB, Redis, Stripe, and JWT-based authentication.
+This is a fully-featured E-Commerce application showcasing a modern tech stack with MongoDB, Redis, Stripe, and JWT-based authentication.
 
 ## 📚 About This Project
 
