@@ -13,12 +13,11 @@ const CategoryPage = () => {
 		fetchProductsByCategory(category);
 	}, [fetchProductsByCategory, category]);
 
-	console.log("products:", products);
 	return (
-		<div className='min-h-screen'>
+		<div className='min-h-screen bg-gray-900'>
 			<div className='relative z-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
 				<motion.h1
-					className='text-center text-4xl sm:text-5xl font-bold text-emerald-400 mb-8'
+					className='text-center text-4xl sm:text-5xl font-bold text-purple-500 mb-8'
 					initial={{ opacity: 0, y: -20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
@@ -33,7 +32,7 @@ const CategoryPage = () => {
 					transition={{ duration: 0.8, delay: 0.2 }}
 				>
 					{products?.length === 0 && (
-						<h2 className='text-3xl font-semibold text-gray-300 text-center col-span-full'>
+						<h2 className='text-3xl font-semibold text-gray-400 text-center col-span-full'>
 							No products found
 						</h2>
 					)}

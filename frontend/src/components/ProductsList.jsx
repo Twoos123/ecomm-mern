@@ -9,13 +9,13 @@ const ProductsList = () => {
 
 	return (
 		<motion.div
-			className='bg-gray-800 shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto'
+			className='bg-gray-900 shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto'
 			initial={{ opacity: 0, y: 20 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.8 }}
 		>
-			<table className=' min-w-full divide-y divide-gray-700'>
-				<thead className='bg-gray-700'>
+			<table className='min-w-full divide-y divide-gray-700'>
+				<thead className='bg-gray-800'>
 					<tr>
 						<th
 							scope='col'
@@ -51,9 +51,9 @@ const ProductsList = () => {
 					</tr>
 				</thead>
 
-				<tbody className='bg-gray-800 divide-y divide-gray-700'>
+				<tbody className='bg-gray-900 divide-y divide-gray-700'>
 					{products?.map((product) => (
-						<tr key={product._id} className='hover:bg-gray-700'>
+						<tr key={product._id} className='hover:bg-gray-800'>
 							<td className='px-6 py-4 whitespace-nowrap'>
 								<div className='flex items-center'>
 									<div className='flex-shrink-0 h-10 w-10'>
@@ -99,4 +99,5 @@ const ProductsList = () => {
 		</motion.div>
 	);
 };
+
 export default ProductsList;

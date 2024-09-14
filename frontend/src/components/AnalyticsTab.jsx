@@ -41,25 +41,25 @@ const AnalyticsTab = () => {
 					title='Total Users'
 					value={analyticsData.users.toLocaleString()}
 					icon={Users}
-					color='from-emerald-500 to-teal-700'
+					color='from-purple-500 to-purple-700'
 				/>
 				<AnalyticsCard
 					title='Total Products'
 					value={analyticsData.products.toLocaleString()}
 					icon={Package}
-					color='from-emerald-500 to-green-700'
+					color='from-purple-500 to-purple-700'
 				/>
 				<AnalyticsCard
 					title='Total Sales'
 					value={analyticsData.totalSales.toLocaleString()}
 					icon={ShoppingCart}
-					color='from-emerald-500 to-cyan-700'
+					color='from-purple-500 to-purple-700'
 				/>
 				<AnalyticsCard
 					title='Total Revenue'
 					value={`$${analyticsData.totalRevenue.toLocaleString()}`}
 					icon={DollarSign}
-					color='from-emerald-500 to-lime-700'
+					color='from-purple-500 to-purple-700'
 				/>
 			</div>
 			<motion.div
@@ -80,7 +80,7 @@ const AnalyticsTab = () => {
 							yAxisId='left'
 							type='monotone'
 							dataKey='sales'
-							stroke='#10B981'
+							stroke='#8B5CF6'
 							activeDot={{ r: 8 }}
 							name='Sales'
 						/>
@@ -88,7 +88,7 @@ const AnalyticsTab = () => {
 							yAxisId='right'
 							type='monotone'
 							dataKey='revenue'
-							stroke='#3B82F6'
+							stroke='#A855F7'
 							activeDot={{ r: 8 }}
 							name='Revenue'
 						/>
@@ -109,12 +109,12 @@ const AnalyticsCard = ({ title, value, icon: Icon, color }) => (
 	>
 		<div className='flex justify-between items-center'>
 			<div className='z-10'>
-				<p className='text-emerald-300 text-sm mb-1 font-semibold'>{title}</p>
+				<p className='text-purple-300 text-sm mb-1 font-semibold'>{title}</p>
 				<h3 className='text-white text-3xl font-bold'>{value}</h3>
 			</div>
 		</div>
-		<div className='absolute inset-0 bg-gradient-to-br from-emerald-600 to-emerald-900 opacity-30' />
-		<div className='absolute -bottom-4 -right-4 text-emerald-800 opacity-50'>
+		<div className='absolute inset-0 bg-gradient-to-br from-purple-600 to-purple-900 opacity-30' />
+		<div className='absolute -bottom-4 -right-4 text-purple-800 opacity-50'>
 			<Icon className='h-32 w-32' />
 		</div>
 	</motion.div>
