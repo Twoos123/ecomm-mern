@@ -22,7 +22,6 @@ Here are the core features:
 - 🛒 **Cart & Checkout Process**
 - 🔒 **Security & Data Protection**
 - 🛡️ **Caching** with Redis
-- ⌛ **And a lot more...**
 
 ---
 
