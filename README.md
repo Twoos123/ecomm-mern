@@ -32,7 +32,7 @@ Here are the core features:
 - **Payment Processing**: Stripe
 - **Authentication**: JWT (Access & Refresh Tokens)
 - **UI/UX**: Tailwind CSS
-- **Frontend**: React (optional)
+- **Frontend**: React
 - **Cloud Storage**: Cloudinary for images
 
 ---
